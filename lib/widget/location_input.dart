@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:fav_places/model/place.dart';
 import 'package:fav_places/widget/map.dart';
 import 'package:flutter/material.dart';
@@ -108,8 +106,8 @@ class _LocationInputState extends State<LocationInput> {
           mapPreview = MapPreview(
               latitude: selectedCoordinates.latitude,
               longitude: selectedCoordinates.longitude);
-          print(selectedCoordinates.latitude);
-          print(selectedCoordinates.longitude);
+          // print(selectedCoordinates.latitude);
+          // print(selectedCoordinates.longitude);
         });
 
         widget.onSelectLocation(pickedLocation!);
